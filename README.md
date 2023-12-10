@@ -3,7 +3,7 @@
 ### To build docker image
 
 ```
-cd ./playwright-containerized
+cd ./playwright-contained
 docker build -t docker_image_name .
 ```
 
