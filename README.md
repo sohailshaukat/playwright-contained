@@ -14,3 +14,6 @@ docker run -p ${PORT}:8080 ${DOCKER_IMAGE_NAME}
 ```
 - `${PORT}` : Port to display report on Host Machine.
 - `${DOCKER_IMAGE_NAME}` : Docker Image Name.
+
+## To Do
+[ ] Move from node:21-bookworm to node:21.4-bullseye-slim - https://github.com/sohailshaukat/playwright-contained/pull/1
