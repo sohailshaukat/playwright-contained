@@ -1,4 +1,4 @@
-FROM node:21-bookworm
+FROM node:21.4-bullseye-slim
 
 WORKDIR /app
 
