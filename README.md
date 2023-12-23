@@ -3,6 +3,7 @@
 [![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=sohailshaukat_playwright-contained)](https://sonarcloud.io/summary/new_code?id=sohailshaukat_playwright-contained)
 
 
+
 ### Docker Steps
 
 ### To build docker image
