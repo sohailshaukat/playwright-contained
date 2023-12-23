@@ -1,4 +1,4 @@
-FROM node:21.4-bullseye-slim
+FROM node:current-bullseye-slim
 
 WORKDIR /app
 
@@ -8,9 +8,8 @@ RUN npm ci
 
 COPY . .
 
-RUN npx playwright install
-
-RUN npx playwright install-deps
+RUN npx playwright install \
+    && npx playwright install-deps
 
 ENV PORT=8080
 
