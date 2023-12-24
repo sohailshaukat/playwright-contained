@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - master
+      - docker-update
+      - QA
 jobs:
   lint:
     runs-on: ubuntu-latest
